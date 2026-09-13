@@ -1,0 +1,25 @@
+{
+  "model_id": "Qwen/Qwen3-VL-8B-Instruct",
+  "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "current_task_id": 2,
+  "shared_rank": 32,
+  "shared_alpha": 32.0,
+  "shared_lr_scale": 0.1,
+  "private_experts_per_task": 16,
+  "private_alpha": 16.0,
+  "dropout": 0.05,
+  "orth_loss_type": "rms",
+  "orth_lambda": 0.1,
+  "orth_eps": 1e-08,
+  "shared_drift_lambda": 0.0,
+  "seed": 42,
+  "shared_source_manifest": "/root/MedAgentCL_v4/output/phase5_shared_private/shared/after_task_1/shared_manifest.json",
+  "private_source_manifests": [
+    "/root/MedAgentCL_v4/output/phase5_shared_private/private/task_1/private_manifest.json"
+  ],
+  "shared_output_dir": "/root/MedAgentCL_v4/output/phase5_shared_private/shared/after_task_2",
+  "private_output_dir": "/root/MedAgentCL_v4/output/phase5_shared_private/private/task_2",
+  "dataset_manifest": "/root/MedAgentCL_v4/artifacts/phase5_shared_private/data/task2_classification_manifest.json",
+  "dataset_sha256": "3b043e60eb9239730079cb1c7cc0ee3cfa7ec8b7c5268cd218b9619937254f63",
+  "output_dir": "/root/MedAgentCL_v4/output/phase5_shared_private/runs/task_2"
+}

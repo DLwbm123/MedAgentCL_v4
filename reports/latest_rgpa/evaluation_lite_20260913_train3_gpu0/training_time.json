@@ -1,0 +1,10 @@
+{
+  "elapsed_seconds": 19605.15352051705,
+  "train_gpus": [
+    0,
+    1
+  ],
+  "per_device_batch": 1,
+  "gradient_accumulation_steps": 8,
+  "effective_batch": 16
+}

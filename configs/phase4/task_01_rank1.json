@@ -1,0 +1,16 @@
+{
+  "model_id": "Qwen/Qwen3-VL-8B-Instruct",
+  "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "current_task_id": 1,
+  "experts_per_task": 4,
+  "alpha": 4.0,
+  "dropout": 0.05,
+  "orth_loss_type": "rms",
+  "orth_lambda": 0.1,
+  "orth_eps": 1e-08,
+  "seed": 42,
+  "source_manifest": null,
+  "dataset_manifest": "/root/MedAgentCL_v4/output/phase4_rank1/phase3_closure/data/smoke_data_manifest.json",
+  "dataset_sha256": "a0da5b8391107507bfca1c94461f451d6116616ba9a8b0cd0dde188c4da88520",
+  "output_dir": "/root/MedAgentCL_v4/output/phase4_rank1/task_01"
+}

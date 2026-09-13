@@ -1,0 +1,13 @@
+name: medagentcl_v4
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.7
+  - pip
+  - decord=0.6.0=np2py312h48de876_2
+  - numpy=2.5.1=py312h33ff503_0
+
+# Install PyTorch separately with scripts/install_pytorch_cu124.sh, then install
+# requirements-bootstrap.txt and the editable project as documented in
+# scripts/bootstrap_phase1.sh. This split preserves the official CUDA wheel index.

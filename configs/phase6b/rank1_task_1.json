@@ -1,0 +1,17 @@
+{
+  "model_id": "Qwen/Qwen3-VL-8B-Instruct",
+  "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "current_task_id": 1,
+  "experts_per_task": 16,
+  "alpha": 16.0,
+  "dropout": 0.05,
+  "orth_loss_type": "rms",
+  "orth_lambda": 0.1,
+  "orth_eps": 1e-08,
+  "seed": 42,
+  "source_manifest": null,
+  "dataset_manifest": "/root/MedAgentCL_v4/artifacts/phase6a/phase6b_train_manifest_task1.json",
+  "dataset_sha256": "e2e3d6b31bfce47e4fc0dc69864420e7b34395db18609e80c55ef2933422683c",
+  "output_dir": "/remote-home/wangbomin/medagentcl_v4_phase6b/pure_rank1_e16/task_1",
+  "artifact_root": "/remote-home/wangbomin/medagentcl_v4_phase6b/pure_rank1_e16/runtime_audits"
+}

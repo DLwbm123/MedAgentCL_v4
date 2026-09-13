@@ -1,0 +1,30 @@
+{
+  "all_concept_micro_f1": 0.3193365525929036,
+  "core_vocabulary_micro_f1": 0.3193365525929036,
+  "primary_score": 0.3193365525929036,
+  "status": "PASS",
+  "total": 1000,
+  "nonempty_predictions": 1000,
+  "mode": "primary_cumulative",
+  "stage": 3,
+  "eval_task": 3,
+  "task_name": "concept_recognition",
+  "active_private_tasks": [
+    1,
+    2,
+    3
+  ],
+  "evaluation_protocol": "lower_triangular_seen_tasks_v1",
+  "dataset": "/remote-home/wangbomin/MedicalSkill-CL-v1.2-lite-10k1k/task_03_concept_recognition/test.jsonl",
+  "dataset_sha256": "70d86c52f94b5728e90da2f3ba7528e32529e1963870999a911daf9e1d026068",
+  "model_id": "Qwen/Qwen3-VL-8B-Instruct",
+  "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "method": "med_prism_shared_private",
+  "fresh_process_reload": true,
+  "eval_limit": 0,
+  "batch_size": 4,
+  "elapsed_seconds": 2521.6280674934387,
+  "samples_per_second": 0.39656918991785534,
+  "predictions": "/remote-home/wangbomin/MedPRISM_RGPA_A_20260912_1540/evaluation_lite_20260913_train3_gpu0/stage_03/primary_cumulative_task_03.predictions.jsonl",
+  "predictions_sha256": "b6b179f31eb43cbe179ebde92f092471ac24294b5d1d3b2f3a2defcae5137122"
+}

@@ -1,0 +1,29 @@
+{
+  "accuracy": 0.876,
+  "primary_score": 0.876,
+  "status": "PASS",
+  "total": 1000,
+  "nonempty_predictions": 1000,
+  "mode": "primary_cumulative",
+  "stage": 3,
+  "eval_task": 1,
+  "task_name": "vqa",
+  "active_private_tasks": [
+    1,
+    2,
+    3
+  ],
+  "evaluation_protocol": "lower_triangular_seen_tasks_v1",
+  "dataset": "/remote-home/wangbomin/MedicalSkill-CL-v1.2-lite-10k1k/task_01_vqa/test.jsonl",
+  "dataset_sha256": "5e660dc1c4b36560cf7dedadcecb6b431164fa2dd280c3b51028c29c3e35d92a",
+  "model_id": "Qwen/Qwen3-VL-8B-Instruct",
+  "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "method": "med_prism_shared_private",
+  "fresh_process_reload": true,
+  "eval_limit": 0,
+  "batch_size": 4,
+  "elapsed_seconds": 1182.5548648834229,
+  "samples_per_second": 0.8456267270936142,
+  "predictions": "/remote-home/wangbomin/MedPRISM_RGPA_A_20260912_1540/evaluation_lite_20260913_train3_gpu0/stage_03/primary_cumulative_task_01.predictions.jsonl",
+  "predictions_sha256": "7ccd50064f61f847a75199cadb48fb856ecd5069c99b5625d26bbc4712bc2efa"
+}

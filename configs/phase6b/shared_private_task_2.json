@@ -1,0 +1,26 @@
+{
+  "model_id": "Qwen/Qwen3-VL-8B-Instruct",
+  "model_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "current_task_id": 2,
+  "shared_rank": 32,
+  "shared_alpha": 32.0,
+  "shared_lr_scale": 0.1,
+  "private_experts_per_task": 16,
+  "private_alpha": 16.0,
+  "dropout": 0.05,
+  "orth_loss_type": "rms",
+  "orth_lambda": 0.1,
+  "orth_eps": 1e-08,
+  "shared_drift_lambda": 0.01,
+  "seed": 42,
+  "shared_source_manifest": "/remote-home/wangbomin/medagentcl_v4_phase6b/shared32_private16/shared/after_task_1/shared_manifest.json",
+  "private_source_manifests": [
+    "/remote-home/wangbomin/medagentcl_v4_phase6b/shared32_private16/private/task_1/private_manifest.json"
+  ],
+  "shared_output_dir": "/remote-home/wangbomin/medagentcl_v4_phase6b/shared32_private16/shared/after_task_2",
+  "private_output_dir": "/remote-home/wangbomin/medagentcl_v4_phase6b/shared32_private16/private/task_2",
+  "dataset_manifest": "/root/MedAgentCL_v4/artifacts/phase6a/phase6b_train_manifest_task2.json",
+  "dataset_sha256": "7f38cfeb7d6181e5a008d8826b9e7a7b5a80ddc4f354b010c37d1aaa58ea092e",
+  "output_dir": "/remote-home/wangbomin/medagentcl_v4_phase6b/shared32_private16/task_2",
+  "artifact_root": "/remote-home/wangbomin/medagentcl_v4_phase6b/shared32_private16/runtime_audits"
+}

@@ -1,0 +1,44 @@
+{
+  "method_version": "2.4",
+  "rho": 0.25,
+  "slack_enabled": true,
+  "baseline": "/remote-home/wangbomin/med_prism_v1_2_ablation_no_geo_orth_medicalskill_v1_2_lite_10k1k_seed42",
+  "baseline_manifest_hash": "66075cb9c0e553faab0ff4b3edb2c7c00b437abec41eaaa73c84894941469adb",
+  "baseline_source_hashes": {
+    "med_prism/config.py": "74357860e609bf7986ad0d43096438e1068c9c7f7f870bda29cbc51f9eb9a9f0",
+    "med_prism/adapters/shared_private.py": "496d1378fac9dae108138b253a5fd647e92679ba6d9f1141fbdbb6a86db97c2f",
+    "med_prism/projection/orth_losses.py": "25f9bd1a7eab5918df55bd7a90df25905ca5c2ade4feddcb2f23f17ff7cc1163",
+    "med_prism/projection/shared_private.py": "b02e1f2800acbcab0f741c46d4ae7d0f460e83bd2f758de48fd87d7f86319a2c",
+    "med_prism/optimization/shared_private.py": "427d3e22343b0c722f3088f8c69da1fd98b03e745310a2a1224f1103458bc743",
+    "med_prism/swift_plugins/shared_private_trainer.py": "c9e5c4c55409ef010a109ac3e5fc315c1b019afbdc8651dd4ee8373b5fcd5123",
+    "med_prism/swift_plugins/med_prism_shared_private_plugin.py": "a1f6300ba26c00bb1554a04d0f0d76f0e6346b7ab590b248bff749702de71f3a",
+    "med_prism/checkpoint/shared_private_checkpoint.py": "95e32db0178aea36f1aace3dd2a340e31a07ec794783582f7c1227276129f676",
+    "med_prism/evaluation/cl.py": "0edfa54905be81fb848132852d50af081299a8a6beb497d81abe3f2cf9178657",
+    "scripts/medicalskill_v1_2_med_prism/evaluate_formal_v1_2_cell.py": "34bc3a44af9598b05a94b86fc51f5d8edf77834c8ce7804196aad84f5c9f5724",
+    "scripts/medicalskill_v1_2_med_prism/evaluation_contract_v1_2.py": "5e1a2a2333250261a48936f1599df9c1bfee4c4eaf27434d6c3e429794fa77e5",
+    "scripts/medicalskill_v1_2_med_prism/aggregate_formal_v1_2.py": "efc4095b62140c16b38e8710f600e3b76e026293927c821b53e8409580ef367f",
+    "scripts/medicalskill_v1_2_med_prism_versions/prepare_versioned.py": "8a7facf9413197d27a4a3a671f9a15fb111c90c5b25771c9a059aaf5feccb74f",
+    "scripts/medicalskill_v1_2_med_prism_versions/run_versioned_train.sh": "9dfb20c0b013daa87dc71bcd8af4cda8b52e246e1105288b248ab378447dcd9c",
+    "scripts/medicalskill_v1_2_med_prism_versions/run_pilot_evaluation.sh": "d505c388bb089bbc5342562beb1613860834742dc7a20e1d66d40de437ec86f8"
+  },
+  "rgpa_source_hashes": {
+    "med_prism/rgpa/__init__.py": "2658be03baed71060fdd6a81f8cae1d2d46fb9ad540be270f62a985d20a42cce",
+    "med_prism/rgpa/boundary.py": "aac5b7b6abe0715faa669b496c42029da2052e9570810be8ff67aa4c6e0b6599",
+    "med_prism/rgpa/core.py": "e1392085407e4ffe52f998e64436bc21a4ced83d3691f62e3f24d51261e407f2",
+    "med_prism/rgpa/plugin.py": "041261ba8832238328036b6372a32f9be7995c3df2cc29162f1f6973cccd1053",
+    "med_prism/rgpa/run.py": "a6a66f5be8f619a805f7f18563f57143e84366f6b8dbb0b5847985a1953c634b",
+    "med_prism/rgpa/state.py": "c562b5ae159d2de37fb8f0fd06991215524887d814c817b339f9a93a5d3b210e"
+  },
+  "reused_task1": true,
+  "task1_shared_hash": "5a7e1604455cacc11112f460398281d53e3a6ea0a4bf3bebba9881847e97986e",
+  "task1_private_hash": "9102f8aaf4821f2776a92c0e7e39c64d5a6459a2fb06bcb991447d5ec0afedb9",
+  "go_thresholds_pp": {
+    "GO_A_avg": 0.5,
+    "GO_B_avg": 0.3,
+    "GO_B_bwt": 0.5,
+    "GO_C_avg": 0.0,
+    "GO_C_task2": 1.0,
+    "current_drop_budget": 0.3,
+    "history_drop_budget": 1.0
+  }
+}

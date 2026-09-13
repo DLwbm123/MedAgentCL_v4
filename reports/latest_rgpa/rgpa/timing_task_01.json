@@ -1,0 +1,10 @@
+{
+  "valid_sample_count": 8,
+  "skipped_count": 0,
+  "elapsed_seconds": 39.742612153990194,
+  "persistent_tensor_invariant": "PASS",
+  "dataset_hash": "5012105e9e41bf2783f3c90d652eb8a6470322f9786d1c3f7ef9f336b5470b60",
+  "calibration_seed": 42,
+  "timing_only": true,
+  "estimated_64_seconds": 317.94089723192155
+}
